@@ -15,12 +15,11 @@ reynolds_number = 0
 
 # Takes inputs from user
 velocity = int(input("What is the velocity of the fluid? "))
-viscosity = int(input("What is the viscosity of the fluid? "))
 linear_dimension = int(input("What is the linear dimension of the fluid? "))
+viscosity = int(input("What is the viscosity of the fluid? "))
 reynolds_number = (velocity * linear_dimension) / viscosity
 
 # Defines which kind of flow
-
 if reynolds_number > 4000:
     print("The Reynold's Number of the fluid is",reynolds_number,"and above 4000, meaning the fluid is turbulent. ")
 elif reynolds_number < 2100:
