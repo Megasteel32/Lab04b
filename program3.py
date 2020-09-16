@@ -24,5 +24,3 @@ c = int(input("What is c? "))
 # Using sympy to get the roots then print them
 roots = solve(a*(x**2) + b*x + c)
 print("The roots of the equation are",roots)
-
-# poopy
