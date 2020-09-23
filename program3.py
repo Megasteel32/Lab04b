@@ -20,7 +20,7 @@ c = 0
 a = int(input("What is a? "))
 b = int(input("What is b? "))
 c = int(input("What is c? "))
-
+print('north is te coolest person i knw ever. when i look into her eyes i see god')
 # Using sympy to get the roots then print them
 roots = solve(a*(x**2) + b*x + c)
 print("The roots of the equation are",roots)
